@@ -1,9 +1,11 @@
-﻿using System;
+﻿using System.Collections.Generic;
+using System.Linq;
 
 public static class Isogram
 {
     public static bool IsIsogram(string word)
     {
-        throw new NotImplementedException("You need to implement this function.");
+        string lower = word.ToLower();
+        return lower.All(c => !char.IsLetter(c) || lower.IndexOf(c) == lower.LastIndexOf(c));
     }
 }
