@@ -24,6 +24,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Isogram", "isogram\Isogram.
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Hamming", "hamming\Hamming.csproj", "{DC06F716-9082-4158-A9C0-4144C4ABD7C8}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NucleotideCount", "nucleotide-count\NucleotideCount.csproj", "{F0C2B987-9346-428F-BDB3-0DBBE05518CD}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -78,5 +80,9 @@ Global
 		{DC06F716-9082-4158-A9C0-4144C4ABD7C8}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DC06F716-9082-4158-A9C0-4144C4ABD7C8}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DC06F716-9082-4158-A9C0-4144C4ABD7C8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F0C2B987-9346-428F-BDB3-0DBBE05518CD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F0C2B987-9346-428F-BDB3-0DBBE05518CD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F0C2B987-9346-428F-BDB3-0DBBE05518CD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F0C2B987-9346-428F-BDB3-0DBBE05518CD}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
