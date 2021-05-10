@@ -1,48 +1,22 @@
-using System;
-
 public class SpaceAge
 {
-    public SpaceAge(int seconds)
-    {
-    }
+    private int Seconds { get; }
 
-    public double OnEarth()
-    {
-        throw new NotImplementedException("You need to implement this function.");
-    }
+    public SpaceAge(int seconds) => Seconds = seconds;
 
-    public double OnMercury()
-    {
-        throw new NotImplementedException("You need to implement this function.");
-    }
+    public double OnEarth() => Seconds / (double)31557600;
 
-    public double OnVenus()
-    {
-        throw new NotImplementedException("You need to implement this function.");
-    }
+    public double OnMercury() => OnEarth() / 0.2408467;
 
-    public double OnMars()
-    {
-        throw new NotImplementedException("You need to implement this function.");
-    }
+    public double OnVenus() => OnEarth() / 0.61519726;
 
-    public double OnJupiter()
-    {
-        throw new NotImplementedException("You need to implement this function.");
-    }
+    public double OnMars() => OnEarth() / 1.8808158;
 
-    public double OnSaturn()
-    {
-        throw new NotImplementedException("You need to implement this function.");
-    }
+    public double OnJupiter() => OnEarth() / 11.862615;
 
-    public double OnUranus()
-    {
-        throw new NotImplementedException("You need to implement this function.");
-    }
+    public double OnSaturn() => OnEarth() / 29.447498;
 
-    public double OnNeptune()
-    {
-        throw new NotImplementedException("You need to implement this function.");
-    }
+    public double OnUranus() => OnEarth() / 84.016846;
+
+    public double OnNeptune() => OnEarth() / 164.79132;
 }
