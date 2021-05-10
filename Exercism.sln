@@ -22,6 +22,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HighScores", "high-scores\H
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Isogram", "isogram\Isogram.csproj", "{8BCF8A88-6562-4ECA-B960-34628B3D63EF}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Hamming", "hamming\Hamming.csproj", "{DC06F716-9082-4158-A9C0-4144C4ABD7C8}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -72,5 +74,9 @@ Global
 		{8BCF8A88-6562-4ECA-B960-34628B3D63EF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8BCF8A88-6562-4ECA-B960-34628B3D63EF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8BCF8A88-6562-4ECA-B960-34628B3D63EF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DC06F716-9082-4158-A9C0-4144C4ABD7C8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DC06F716-9082-4158-A9C0-4144C4ABD7C8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DC06F716-9082-4158-A9C0-4144C4ABD7C8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DC06F716-9082-4158-A9C0-4144C4ABD7C8}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
