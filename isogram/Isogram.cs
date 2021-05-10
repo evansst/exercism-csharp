@@ -6,6 +6,6 @@ public static class Isogram
     public static bool IsIsogram(string word)
     {
         string lower = word.ToLower();
-        return lower.All(c => !char.IsLetter(c) || lower.IndexOf(c) == lower.LastIndexOf(c));
+        return lower.Any(c => char.IsLetter(c) && lower.IndexOf(c) != lower.LastIndexOf(c));
     }
 }
