@@ -28,6 +28,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NucleotideCount", "nucleoti
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Raindrops", "raindrops\Raindrops.csproj", "{1FEA517D-4D3F-43E6-B1DC-E32B00841F48}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RobotName", "robot-name\RobotName.csproj", "{FE911C3F-1AE0-4CDC-9AAA-B694524262DD}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -90,5 +92,9 @@ Global
 		{1FEA517D-4D3F-43E6-B1DC-E32B00841F48}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1FEA517D-4D3F-43E6-B1DC-E32B00841F48}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1FEA517D-4D3F-43E6-B1DC-E32B00841F48}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FE911C3F-1AE0-4CDC-9AAA-B694524262DD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FE911C3F-1AE0-4CDC-9AAA-B694524262DD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FE911C3F-1AE0-4CDC-9AAA-B694524262DD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FE911C3F-1AE0-4CDC-9AAA-B694524262DD}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
